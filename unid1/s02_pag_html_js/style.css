@@ -1,0 +1,17 @@
+#tabla{
+    background-color: antiquewhite;
+    display: table;
+    margin: 10px;
+    border: 20px;
+}
+#boton{
+    display: block;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    border:none;
+    margin: 5px;
+}
+#boton:hover{
+    border-color: brown;
+}

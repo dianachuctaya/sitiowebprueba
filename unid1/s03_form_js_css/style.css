@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: rgb(32, 228, 228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: bisque;
+    font-size: large;
+    padding: 10px;
+}
+video{
+    margin-top: 10 px;
+    align-content: center;
+    display: inline-flex;
+    width: 60%;
+    height: 70vh;
+}
