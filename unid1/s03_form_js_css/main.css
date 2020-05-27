@@ -1,0 +1,15 @@
+#tabla{
+    background-color: antiquewhite;
+    display: table;
+}
+td,tr,th{
+    padding: 8px;
+    margin: 2px;   
+    border-radius: black;
+}
+#cab{
+    background-color: bisque;
+}
+#foto{
+    background-color: rgba(248, 130, 84, 0.876);
+}
