@@ -6,6 +6,8 @@
 </head>
 
 <body>
-	<h1> Pagina de inicio </h1>
+	<?php
+		var_dump($_POST);
+	?>
 </body>
 </html>

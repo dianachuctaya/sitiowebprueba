@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/form02valida.js"></script>
+</head>
+
+<body>
+    <h1>Validar listas</h1>
+    <form action="p00validada.php" method="post" onsubmit="return fnValidar02();">
+        <h3>Preferencias</h3>
+        <select name="lsPreferencias" id="lsPreferencias">
+			<option value="">Seleccione...</option>
+			<option value="M">Música</option>
+			<option value="P">Películas</option>
+			<option value="D">Deporte</option>
+			<option value="T">Teatro</option>
+			<option value="N">No responde</option>
+		</select>
+        <h3>Mes</h3>
+        <select name="lsMes" id="lsMes">
+			<!-- <option value=""> Seleccione... </option> -->
+				<script>
+					// var mm;
+					var mes = Array["Enero", "Febreo","Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"];
+					for(var i=0; i<mes.length; i++)
+					{
+						mm=+mes[i];
+						document.write("<option value=" +mm+ "> Seleccione..."+ mm + " </option>");
+						// console.log("<option value='" +mm+"' > Seleccione"+mm+ " </option>");
+					}
+				</script>
+		</select>
+        <p><input type="submit" name="brnVer" value="Pasar"></p>
+    </form>
+
+</body>
+
+</html>
