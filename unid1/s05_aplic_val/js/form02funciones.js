@@ -15,26 +15,13 @@ function validarjs()
         alert("Falta Direccion... ");
         return false;
     }
-    var edad = document.getElementById("txtEdad").value;
-    if (edad == "" || /^([0-2])*$/.test(edad)) {
-        alert("Falta Edad...");
-        return false;
-    }
-    var datenacimiento = document.getElementById("txtEdad").value;
-    if (datenacimiento == "" || /^([0-2])*$/.test(datenacimiento)) {
-        alert("Falta Edad...");
-        return false;
-    }
+ 
     var genero = document.getElementById("lstEstado").value;
     if (genero == null || etcivil == 0) {
         alert("Seleccione su estado civil");
         return false;
     }
-    var etcivil = document.getElementById("lstEstado").value;
-    if (etcivil == null || etcivil == 0) {
-        alert("Seleccione su estado civil");
-        return false;
-    }
+
 
     return true;
 }
