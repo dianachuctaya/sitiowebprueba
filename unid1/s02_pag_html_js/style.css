@@ -3,6 +3,11 @@
     display: table;
     margin: 10px;
     border: 20px;
+    
+}
+td{
+    padding: 5PX;
+    margin:1px salmon;
 }
 #boton{
     display: block;

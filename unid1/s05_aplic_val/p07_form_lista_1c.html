@@ -18,11 +18,22 @@
 		<tr>
 			<td id="tdIzq">Seleccione turno:</td>
 			<td id="tdDer">
-				<select name="lstTurno" id="lstTurno">
+				<select name="lstTurno" id="lstTurno" onchange="verTablas(this.value, alumnos, lstGenero.value )">
 					<option value="">Seleccione...</option>
 					<option value="M">Turno día</option>
 					<option value="N">Turno noche</option>
 					<option value="T">Tarde</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td id="tdIzq">Seleccione Genero:</td>
+			<td id="tdDer">
+				<select name="lstGenero" id="lstGenero" onchange="verTablas(lstTurno.value, alumnos, this.value)">
+					<option value="">Seleccione...</option>
+					<option value="M">Masculino</option>
+					<option value="F">Femenino</option>
+			
 				</select>
 			</td>
 		</tr>
